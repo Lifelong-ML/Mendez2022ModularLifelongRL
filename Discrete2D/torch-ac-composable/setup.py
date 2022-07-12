@@ -7,6 +7,6 @@ setup(
     packages=find_packages(),
     install_requires=[
         "numpy>=1.13.0",
-        "torch>=1.0.0"
+        "torch>=1.0.0,<=1.5.1"
     ]
 )

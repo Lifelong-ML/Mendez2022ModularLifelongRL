@@ -5,6 +5,7 @@ This code base reproduces the experiments of the ICLR 2022 paper "Modular Lifelo
 ## Discrete 2-D tasks
 
 Primary dependencies: 
+- Python 3.6
 - gym-minigrid: install local version via `pip install -e gym-minigrid`
 - torch-ac-composable: install local version via `pip install -e torch-ac-composable`
 - pytorch version 1.5.1
@@ -16,6 +17,7 @@ To reproduce the results of our compositional agent, execute the following comma
 ## Robotic Manipulation
 
 Primary dependencies:
+- Python 3.6
 - Spinning Up: install local version via `pip install -e spinningup`
 - Robosuite: install local version via `pip install -e robosuite`
 - pytorch version 1.8.1
