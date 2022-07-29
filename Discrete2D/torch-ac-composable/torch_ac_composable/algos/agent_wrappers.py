@@ -409,6 +409,7 @@ class CompositionalLearner(Learner):
             batch_size=batch_size,
             preprocess_obss=preprocess_obss,
             reshape_reward=reshape_reward,
+            replay_capacity=replay_capacity,
             results_dir=results_dir
         )
 
@@ -560,6 +561,7 @@ class PandCLearner(Learner):
             batch_size=batch_size,
             preprocess_obss=preprocess_obss,
             reshape_reward=reshape_reward,
+            replay_capacity=replay_capacity,
             results_dir=results_dir
         )
 
@@ -686,6 +688,7 @@ class EWCLearner(Learner):
             batch_size=batch_size,
             preprocess_obss=preprocess_obss,
             reshape_reward=reshape_reward,
+            replay_capacity=replay_capacity,
             results_dir=results_dir
         )
 
@@ -826,6 +829,7 @@ class CLEARLearner(Learner):
             batch_size=batch_size,
             preprocess_obss=preprocess_obss,
             reshape_reward=reshape_reward,
+            replay_capacity=replay_capacity,
             results_dir=results_dir
         )
 
